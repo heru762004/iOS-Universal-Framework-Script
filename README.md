@@ -7,3 +7,7 @@ Add this script to :
 3. Choose Post-actions
 4. Change Provide build settings from to your library project
 5. Copy paste the script
+
+For Objective-C Framework, if you put config inside PREPROCESSOR MACRO, you can use change config to this code
+
+CONFIG="$GCC_PREPROCESSOR_DEFINITIONS"
